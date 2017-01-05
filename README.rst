@@ -4,6 +4,11 @@ thunder
 .. image:: https://travis-ci.org/wikibootup/thunder.svg?branch=master
    :target: https://travis-ci.org/wikibootup/thunder
 
+Pre-requisites
+--------------
+- heroku
+    - $ brew install heroku
+
 References
 --------
 blog.miguelgrinberg_
