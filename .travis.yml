@@ -4,7 +4,6 @@ python:
 install:
 - pip install -r requirements.txt
 env:
-  matrix:
   - APP_SETTINGS=config.StagingConfig
   - DATABASE_URL=postgresql://localhost/thunder_wikibootup
   - secure: PmkyORWDGHJbzT3LOR/9BeL8ydF8pYgRtOf0ETImRqv/lTkALN+IrcvYrfa+zMvdtpLvBmLR4mIh8shkLneqRysdCeoLfw/i0HJdCjOTsnItseA9nTXlDIOjqp7TwE6wajzpiuDSZHi5dHdpSRlgemnohlYCfBDblzToTbrVmvjnSUObQlBGKuoL2pgJDyF9HRoNTM3JrlPzjSNmoDhsdm8Pne+XM3G4xKW0WQ/pgBf9DrLD0WPmoxYQO+QR2lRN381JZkVXh99Va1oKSIxo8wUpzrv5MuqDRgna4A3LHjotZ+UAmhi5aBy0Ceu6ZifGk8VkO58asnTJOwVlKFi1MDK132UB+Pw90vnwtaELYORMUbANB9yoBs5pxUNoFHm+/3qhn0spJvjQhZjKs8yaQ5oLq3+v3IuswQX2UIetan8SPuvW3xwi6FUElM5zwFW3/HDblbz1MCrc29J4NDgVssI/x7CaeuYVDJODMbmH6JrzjGliLCvzgZTbhegxFd+NLi4hrq/gvC/CoMPQi6j8MQeqmH/Ljvs8lN45/jg/KYCI7EGTh6hSA4JjX1vUPD05NZJFCGR5kvXV7zOihK9+hivUWxvf/AKIMWMNfiGBbcVzMVdrs2FWbMZLB6VoQv5SnTD/WXXfKt2Nnk5Mj26Fv48/TAqvuBXca2/+QKJp5jc=
