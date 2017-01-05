@@ -3,5 +3,11 @@ python:
   - 3.6
 install:
   - pip install -r requirements.txt
+env:
+  - APP_SETTINGS=config.StagingConfig
+services:
+  - postgresql
+before_script:
+  - psql -c 'create database thunder_wikibootup;' -U postgres
 script:
   - py.test -v thunder/
