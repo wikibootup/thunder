@@ -1,1 +1,1 @@
-web: gunicorn thunder.backend.app:app
+web: gunicorn backend.app:app
