@@ -7,7 +7,7 @@ from thunder import app
 
 @app.route('/')
 def hello():
-    return "Hello World!"
+    return app.send_static_file('index.html') 
 
 
 @app.route('/<name>')
